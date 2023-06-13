@@ -1,0 +1,59 @@
+@font-face {
+    font-family: normalFont;
+    src: url(/res/normalFont.ttf);
+}
+p.title {
+    text-align: center;
+    font-size: 100px;
+    font-family: normalFont;
+}
+a.home {
+    display: block;
+    width: 300px;
+    height: 80px;
+    position: absolute;
+    left: 10px;
+    top: 30px;
+}
+p.home {
+    background-color: #5e7b62;
+    color: #1b2f33;
+    border-radius: 100px;
+    font-size: 16px;
+    width: 50px;
+    height: 50px;
+    border: 5px solid #1b2f33;
+    text-align: center;
+    position: absolute;
+    left: 100px;
+    top: 20px;
+    font-family: normalFont;
+}
+img.foto {
+    width: 1068px;
+    height: 601px;
+    border-radius: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    display: block;
+}
+
+a:link { text-decoration: none; }
+
+a:visited { text-decoration: none; }
+
+a:hover { text-decoration: none; }
+
+a:active { text-decoration: none; }
+
+img { 
+    image-rendering: optimizeSpeed;             /* STOP SMOOTHING, GIVE ME SPEED  */
+    image-rendering: -moz-crisp-edges;          /* Firefox                        */
+    image-rendering: -o-crisp-edges;            /* Opera                          */
+    image-rendering: -webkit-optimize-contrast; /* Chrome (and eventually Safari) */
+    image-rendering: pixelated;                 /* Universal support since 2021   */
+    image-rendering: optimize-contrast;         /* CSS3 Proposed                  */
+    -ms-interpolation-mode: nearest-neighbor;   /* IE8+                           */
+
+}
